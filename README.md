@@ -28,6 +28,7 @@ The log file will be in the ./log/ folder.
 - l_r: learning rate. Default: 1e-3.
 - weight_decay: the hyper-parameter for weight decay. Default: 1e-3.
 - gpu_id: the gpu used for training. 
+
 Other parameter settings can be found in train.py. We keep the default setings as MMGCN.
 
 ### Examples
