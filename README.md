@@ -9,8 +9,6 @@ Here, we release the code and data for the proposed counterfactual recommendatio
 - pytorch 1.4.0
 - numpy 1.16.4 
 
-For others, please refer to the file env.yaml.
-
 ## Usage
 
 ### Training
@@ -39,4 +37,4 @@ CUDA_VISIBLE_DEVICES=0 python main.py --model_name=MMGCN --l_r=1e-3 --weight_dec
 ```
 
 We will release all training logs in ./log folder. The hyperparameter settings can be found in the log file. 
-The well-trained model parameters will be uploaded to drivers and shared it here.
+The well-trained model parameters will be uploaded to drivers and shared it here. 
