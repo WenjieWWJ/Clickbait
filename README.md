@@ -90,4 +90,4 @@ Thanks to the MMGCN implementation:
 
 ## License
 
-NUS © [NExT++](
+NUS © [NExT++](https://www.nextcenter.org/)
