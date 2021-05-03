@@ -27,7 +27,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--no-cuda', action='store_true', default=False, help='Disables CUDA training.')
     parser.add_argument('--model_name', default='MMGCN', help='Model name.')
-    parser.add_argument('--data_path', default='../../../data/tiktok/', help='Dataset path')
+    parser.add_argument('--data_path', default='../../data/tiktok/', help='Dataset path')
     parser.add_argument('--save_path', default='./model_1/', help='saved model path')
     parser.add_argument('--log_name', default='adressa', help='training log name')
     parser.add_argument('--PATH_weight_load', default=None, help='Loading weight filename.')
@@ -52,6 +52,7 @@ if __name__ == '__main__':
     print('Data has been loaded.')
 ###############################################################################################################################
     model = torch.load('{}{}_{}.pth'.format(args.save_path, args.model_name, args.log_name))
+#     model = torch.load('{}MMGCN_MMGCN_tiktok_1e-3lr_1e-3wd_TIE.pth'.format(args.save_path))
     model.eval()
     with torch.no_grad():
         test_precision, test_recall, test_ndcg_score = model.full_ranking(test_dataset, topk=[10, 20, 50, 100])

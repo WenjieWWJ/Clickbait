@@ -27,7 +27,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--no-cuda', action='store_true', default=False, help='Disables CUDA training.')
     parser.add_argument('--model_name', default='MMGCN', help='Model name.')
-    parser.add_argument('--data_path', default='../../../../data/adressa/', help='Dataset path')
+    parser.add_argument('--data_path', default='../../data/adressa/', help='Dataset path')
     parser.add_argument('--save_path', default='./model_1/', help='saved model path')
     parser.add_argument('--log_name', default='adressa', help='training log name')
     parser.add_argument('--PATH_weight_load', default=None, help='Loading weight filename.')
