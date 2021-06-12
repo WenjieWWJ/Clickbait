@@ -75,7 +75,7 @@ If you use our code, please kindly cite:
 ```
 @inproceedings{wang2021Clicks,
   title={Clicks can be Cheating: Counterfactual Recommendationfor Mitigating Clickbait Issue},
-  author={Wenjie Wang, Fuli Feng, Xiangnan He, Hanwang Zhang, and Tat-SengChua},
+  author={Wenjie Wang, Fuli Feng, Xiangnan He, Hanwang Zhang, and Tat-Seng Chua},
   booktitle={SIGIR},
   year={2021},
   publisher={ACM}
